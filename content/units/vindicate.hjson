@@ -1,0 +1,42 @@
+{
+	speed: 1.4
+	health: 280
+	engineSize: 5
+	hitsize: 14
+	engineOffset: 12
+	baseRotateSpeed: 0.3
+	range: 60
+	rotateShooting: false
+	targetGround: true
+	targetAir: false
+	weapons: [
+       {
+            x: 1
+            y: 4
+            mirror: true
+            name: anti-ship
+            reload: 35
+            rotate: false
+            bullet: {
+            	type: MissileBulletType
+            	bulletSprite: torpedo
+				width: 8
+				height: 8
+				shrinkY: 0
+				drag: -0.003
+				speed: 2
+				homingRange: 60
+				keepVelocity: false
+				splashDamageRadius: 5
+				splashDamage: 15
+				damage: 60
+				lifetime: 80
+				hitEffect: blastExplosion
+				despawnEffect: blastExplosion
+            	collidesGround: true
+            	collidesAir: false
+            	collidesTiles: false
+            }
+        }
+      ]
+}

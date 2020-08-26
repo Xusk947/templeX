@@ -1,0 +1,36 @@
+{
+	plans: [{
+		unit: risso
+		time: 300
+		requirements: [
+			silicon/25
+			metaglass/30
+		]
+	}
+	{
+		unit: anti-air-supporter
+		time: 500
+		requirements: [
+			silicon/25
+			metaglass/15
+			lead/20
+		]
+	}
+	{
+		unit: railo
+		time: 500
+		requirements: [
+			silicon/50
+			metaglass/35
+			lead/45
+		]
+	}
+	{
+		unit: vindicate
+		time: 500
+		requirements: [
+			silicon/25
+			metaglass/40
+		]
+	}]
+}

@@ -1,0 +1,3 @@
+Just make a Units.closest stuff and in the boolp put 
+!e.isDead()&&e.flying
+Easy peezy

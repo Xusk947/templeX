@@ -1,0 +1,42 @@
+{
+	speed: 0.8
+	rotateShooting: false
+	health: 320
+	engineSize: 5
+	engineOffset: 12
+	baseRotateSpeed: 0.3
+	range: 300
+	targetGround: false
+	targetAir: true
+	weapons: [
+       {
+			shots: 3
+            x: 0
+            y: -5
+            mirror: false
+            name: anti-air
+            reload: 55
+            rotate: true
+            spacing: 5
+            bullet: {
+            	type: MissileBulletType
+				width: 8
+				height: 8
+				shrinkY: 0
+				drag: -0.003
+				speed: 3
+				homingRange: 60
+				keepVelocity: false
+				damage: 35
+				splashDamageRadius: 25
+				splashDamage: 10
+				lifetime: 80
+				hitEffect: blastExplosion
+				despawnEffect: blastExplosion
+                weaveScale: 8
+                weaveMag: 2
+            	collidesGround: false
+            }
+        }
+      ]
+}
