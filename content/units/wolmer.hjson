@@ -1,0 +1,11 @@
+{
+	speed: 0.6
+	health: 750
+	engineSize: 5
+	engineOffset: 12
+	baseRotateSpeed: 0.1
+	range: 120
+	rotateShooting: false
+	targetGround: false
+	targetAir: false
+}

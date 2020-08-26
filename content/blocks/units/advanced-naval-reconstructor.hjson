@@ -1,0 +1,29 @@
+{
+	type: Reconstructor
+	size: 5
+	consumes: {
+		power: 3.5
+		items: {
+			items: [
+				silicon/240
+				titanium/180
+				metaglass/130
+			]
+		}
+	}
+	requirements: [
+		graphite/170
+		silicon/240
+		metaglass/90
+		thorium/150
+		lead/270
+	]
+
+	constructTime: 1950
+
+	upgrades: [
+		[mender, wolmer]
+	]
+	category: units
+	research: naval-upgrader-factory
+}
