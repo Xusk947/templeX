@@ -1,3 +1,4 @@
 name : templeX
 description : test
+minGameVersion: 105
 version : "0.1"
